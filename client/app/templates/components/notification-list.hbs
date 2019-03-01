@@ -1,0 +1,16 @@
+{{#if hasNotifications}}
+  <div class="notifications-container">
+    <div class="alert alert-primary" {{action "expand"}}>
+      {{#if showExpanded}}
+        Collapse
+      {{else}}
+        You have new notifications expand view them
+      {{/if}}
+    </div>
+    <ul class="list-group container-fluid {{if showExpanded "" "d-none"}}">
+      {{#each pollNotificationService.notifications as |notification|}}
+        <NotificationListItem @item={{notification}}/>
+      {{/each}}
+    </ul>
+  </div>
+{{/if}}

@@ -34,7 +34,7 @@ class ProcessTransactionUploadTasks extends Threaded
 
         $failed = 0;
         $completed = 0;
-        $myPdo = new PDO('pgsql:host=localhost;dbname=lawn_pro', 'aorduno', '');
+        $myPdo = new PDO('pgsql:host=localhost;dbname=test-trapp', 'aorduno', '');
         $myPdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         foreach ($lineBatches as $batch) {
             $processData = $this->processCsvBatch($batch, $myPdo);
@@ -129,7 +129,7 @@ class ProcessTransactionUploadTasks extends Threaded
 
     private function updateTransactionUpload($myPdo, $processData)
     {
-        $prepared = $myPdo->prepare('UPDATE transaction_upload SET completed = ?, failed = ? WHERE id = ?');
-        $prepared->execute(array($processData['completed'], $processData['failed'], $processData['transactionId']));
+        $prepared = $myPdo->prepare('UPDATE transaction_upload SET status = ?, completed = ?, failed = ? WHERE id = ?');
+        $prepared->execute(array('processed', $processData['completed'], $processData['failed'], $processData['transactionId']));
     }
 }

@@ -1,0 +1,13 @@
+<h2>{{this.title}}</h2>
+
+<ul class="list-group">
+  {{#each this.transactionList as |transaction|}}
+    <li class="list-group-item">
+      <span>{{transaction.id}}</span>
+      <span>{{transaction.description}}</span>
+      <span>{{transaction.amount}}</span>
+      <span>{{transaction.date}}</span>
+      <span>{{transaction.ownerId}}</span>
+    </li>
+  {{/each}}
+</ul>

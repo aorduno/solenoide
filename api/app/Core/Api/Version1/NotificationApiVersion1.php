@@ -19,4 +19,9 @@ class NotificationApiVersion1 implements NotificationApi
     {
         return $this->notificationService->fetchAll();
     }
+
+    public function delete($id)
+    {
+        return $this->notificationService->delete($id);
+    }
 }

@@ -1,0 +1,9 @@
+<div class="full-screen-container dashboard-container jumbotron">
+  <div class="alert alert-success">
+    <h4 class="display-4">Welcome {{this.model.name}}!!!</h4>
+    <p class="lead">This is your dashboard, find down there the available tools!</p>
+    <hr class="my-4">
+    {{#link-to "transactions" class="btn btn-primary btn-lg"}}Manage Transactions{{/link-to}}
+    {{outlet}}
+  </div>
+</div>

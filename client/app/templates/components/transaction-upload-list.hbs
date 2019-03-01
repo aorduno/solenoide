@@ -1,0 +1,28 @@
+<h2 class="display-4">
+  {{#if hasTransactions}}
+    {{this.title}}
+  {{else}}
+    {{this.emptyMessage}}
+  {{/if}}
+</h2>
+<hr class="my-4">
+<ul class="container-fluid">
+  {{#if hasTransactions}}
+    <li class="row font-weight-bold">
+      <span class="col-1">Id</span>
+      <span class="col-5">Filename</span>
+      <span class="col-2">Status</span>
+      <span class="col-2">Completed</span>
+      <span class="col-2">Failed</span>
+    </li>
+  {{/if}}
+  {{#each this.transactionUploadList as |transactionUpload|}}
+    <li class="row">
+      <span class="col-1">{{transactionUpload.id}}</span>
+      <span class="col-5">{{transactionUpload.filename}}</span>
+      <span class="col-2">{{transactionUpload.status}}</span>
+      <span class="col-2">{{transactionUpload.completed}}</span>
+      <span class="col-2">{{transactionUpload.failed}}</span>
+    </li>
+  {{/each}}
+</ul>

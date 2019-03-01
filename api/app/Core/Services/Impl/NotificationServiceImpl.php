@@ -13,4 +13,9 @@ class NotificationServiceImpl implements NotificationService
     {
         return Notification::all();
     }
+
+    public function delete($id)
+    {
+        return Notification::destroy($id);
+    }
 }

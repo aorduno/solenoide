@@ -1,0 +1,18 @@
+{{#if hasError}}
+  <div class="alert alert-danger">{{this.errorMessage}}</div>
+{{/if}}
+{{#if hasSuccessMessage}}
+  <div class="alert alert-success">{{this.successMessage}}</div>
+{{/if}}
+<FileUpload @name="transaction"
+            @accept="text/*"
+            @multiple=false
+            @onfileadd={{action "uploadImage"}} as |queue|>
+  <a class="button">
+    {{#if queue.files.length}}
+      <div class="alert alert-warning">Uploading...</div>
+    {{else}}
+      <div class="btn btn-light">Upload file</div>
+    {{/if}}
+  </a>
+</FileUpload>

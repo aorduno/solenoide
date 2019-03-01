@@ -1,0 +1,21 @@
+.full-screen-container {
+  height: 1000px;
+}
+
+.dashboard-container.alert {
+  padding: 0;
+}
+
+.full-screen-interstitial {
+  position: absolute;
+  z-index: 9999;
+  opacity: .5;
+  background-color: #fff;
+  width: 100%;
+}
+
+.full-screen-interstitial .spinner-border.text-info {
+  position: relative;
+  top: 25%;
+  left: 50%;
+}

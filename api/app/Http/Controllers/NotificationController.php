@@ -67,6 +67,7 @@ class NotificationController extends Controller
      */
     public function destroy($id)
     {
-        //
+        // @TODO:aorduno - we should use resource for this like other endpoints but meh!
+        return response()->json(array('data' => array('id' => $this->notificationApi->delete($id), 'type' => 'deleteNoficiationResponse')));
     }
 }
