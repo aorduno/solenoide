@@ -1,40 +1,40 @@
 <?php
 
-namespace App\Http\Controllers\Api;
+namespace App\Http\Controllers;
 
-use App\Http\Controllers\Controller;
+use App\Core\Api\TransactionUploadApi;
+use App\Http\Resources\TransactionUpload;
 use App\Http\Resources\TransactionUploadCollection;
-use App\Services\TransactionUploadService;
 use Illuminate\Http\Request;
 
 class TransactionUploadController extends Controller
 {
-    protected $transactionUploadService;
+    protected $transactionUploadApi;
 
-    public function __construct(TransactionUploadService $transactionUploadService)
+    public function __construct(TransactionUploadApi $transactionUploadApi)
     {
-        $this->transactionUploadService = $transactionUploadService;
+        $this->transactionUploadApi = $transactionUploadApi;
     }
 
     /**
      * Display a listing of the resource.
      *
-     * @return \Illuminate\Http\Response
+     * @return TransactionUploadCollection
      */
     public function index()
     {
-        return new TransactionUploadCollection($this->transactionUploadService->findAll());
+        return new TransactionUploadCollection($this->transactionUploadApi->fetchAll());
     }
 
     /**
      * Store a newly created resource in storage.
      *
      * @param  \Illuminate\Http\Request $request
-     * @return \Illuminate\Http\Response
+     * @return TransactionUpload
      */
     public function store(Request $request)
     {
-        //
+        return new TransactionUpload($this->transactionUploadApi->store($request));
     }
 
     /**

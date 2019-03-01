@@ -2,8 +2,8 @@
 
 namespace App\Providers;
 
-use App\Services\Impl\TransactionServiceImpl;
-use App\Services\TransactionService;
+use App\Core\Services\Impl\TransactionServiceImpl;
+use App\Core\Services\TransactionService;
 use Illuminate\Support\ServiceProvider;
 
 class TransactionServiceProvider extends ServiceProvider

@@ -2,8 +2,8 @@
 
 namespace App\Providers;
 
-use App\Services\FileManagerService;
-use App\Services\Impl\FileManagerServiceImpl;
+use App\Core\Services\FileManagerService;
+use App\Core\Services\Impl\FileManagerServiceImpl;
 use Illuminate\Support\ServiceProvider;
 
 class FileManagerServiceProvider extends ServiceProvider

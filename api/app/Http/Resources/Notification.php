@@ -4,7 +4,7 @@ namespace App\Http\Resources;
 
 use Illuminate\Http\Resources\Json\JsonResource;
 
-class TransactionUpload extends JsonResource
+class Notification extends JsonResource
 {
     /**
      * Transform the resource into an array.
@@ -16,12 +16,9 @@ class TransactionUpload extends JsonResource
     {
         return [
             'id' => $this->id,
-            'type' => 'transactionUpload',
+            'type' => 'notification',
             'attributes' => [
-                'filename' => $this->filename,
-                'status' => $this->status,
-                'completed' => $this->completed,
-                'failed' => $this->failed,
+                'message' => $this->message
             ]
         ];
     }

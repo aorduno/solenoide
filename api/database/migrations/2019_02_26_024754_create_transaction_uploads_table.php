@@ -1,8 +1,8 @@
 <?php
 
-use Illuminate\Support\Facades\Schema;
-use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
 
 class CreateTransactionUploadsTable extends Migration
 {
@@ -15,7 +15,7 @@ class CreateTransactionUploadsTable extends Migration
     {
         Schema::create('transaction_upload', function (Blueprint $table) {
             $table->increments('id');
-            $table->text('filepath');
+            $table->text('filename')->unique();
             $table->enum('status', ['pending', 'processed']);
             $table->unsignedInteger('completed');
             $table->unsignedInteger('failed');

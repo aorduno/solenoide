@@ -1,30 +1,28 @@
 <?php
 
-namespace App\Http\Controllers\Api;
+namespace App\Http\Controllers;
 
-use App\Http\Controllers\Controller;
-use App\Http\Resources\FileUploadResponse;
-use App\Services\FileManagerService;
+use App\Core\Api\NotificationApi;
+use App\Http\Resources\NotificationCollection;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Validator;
 
-class FilesController extends Controller
+class NotificationController extends Controller
 {
-    private $fileManagerService;
+    private $notificationApi;
 
-    public function __construct(FileManagerService $fileManagerService)
+    public function __construct(NotificationApi $notificationApi)
     {
-        $this->fileManagerService = $fileManagerService;
+        $this->notificationApi = $notificationApi;
     }
 
     /**
      * Display a listing of the resource.
      *
-     * @return \Illuminate\Http\Response
+     * @return NotificationCollection
      */
     public function index()
     {
-        phpinfo();
+        return new NotificationCollection($this->notificationApi->fetchAll());
     }
 
     /**
@@ -35,12 +33,7 @@ class FilesController extends Controller
      */
     public function store(Request $request)
     {
-        // @TODO:aorduno - unhappy path?
-        Validator::make($request->all(), [
-            'file' => 'required|file',
-        ])->validate();
-
-        return new FileUploadResponse($this->fileManagerService->upload($request));
+        //
     }
 
     /**
@@ -51,7 +44,7 @@ class FilesController extends Controller
      */
     public function show($id)
     {
-        dd('show');
+        //
     }
 
     /**

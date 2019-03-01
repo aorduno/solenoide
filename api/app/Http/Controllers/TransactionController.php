@@ -1,10 +1,9 @@
 <?php
 
-namespace App\Http\Controllers\Api;
+namespace App\Http\Controllers;
 
-use App\Http\Controllers\Controller;
+use App\Core\Services\TransactionService;
 use App\Http\Resources\TransactionCollection;
-use App\Services\TransactionService;
 use Illuminate\Http\Request;
 
 class TransactionController extends Controller
@@ -19,7 +18,7 @@ class TransactionController extends Controller
     /**
      * Display a listing of the resource.
      *
-     * @return \Illuminate\Http\Response
+     * @return TransactionCollection
      */
     public function index()
     {

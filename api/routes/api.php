@@ -17,7 +17,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::apiResource('transactions', 'Api\TransactionController');
-Route::apiResource('transactionUploads', 'Api\TransactionUploadController');
-
-Route::apiResource('files', 'Api\FilesController');
+Route::apiResource('transactionUploads', 'TransactionUploadController');
+Route::apiResource('notifications', 'NotificationController');

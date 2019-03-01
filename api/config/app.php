@@ -176,8 +176,7 @@ return [
         App\Providers\RouteServiceProvider::class,
         App\Providers\TransactionServiceProvider::class,
         App\Providers\FileManagerServiceProvider::class,
-        App\Providers\TransactionUploadServiceProvider::class,
-
+        App\Providers\ApiProvider::class,
     ],
 
     /*

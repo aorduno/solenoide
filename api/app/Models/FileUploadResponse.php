@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
+// @TODO:aorduno -- leave alone for now... might be useful to keep
 class FileUploadResponse extends Model
 {
     private $succeed;
@@ -14,6 +15,7 @@ class FileUploadResponse extends Model
     private $validHeader;
     private $validLines;
     private $linesCount;
+    private $filename;
 
     /**
      * @return mixed
@@ -157,5 +159,21 @@ class FileUploadResponse extends Model
     public function setLinesCount($linesCount): void
     {
         $this->linesCount = $linesCount;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getFilename()
+    {
+        return $this->filename;
+    }
+
+    /**
+     * @param mixed $filename
+     */
+    public function setFilename($filename): void
+    {
+        $this->filename = $filename;
     }
 }
