@@ -60,7 +60,7 @@ return [
             'driver' => 'pgsql',
             'host' => env('DB_HOST', 'localhost'),
             'port' => env('DB_PORT', '5432'),
-            'database' => env('DB_DATABASE', 'lawn_pro'),
+            'database' => env('DB_DATABASE', 'test-trapp'),
             'username' => env('DB_USERNAME', 'aorduno'),
             'password' => env('DB_PASSWORD', ''),
             'charset' => 'utf8',
