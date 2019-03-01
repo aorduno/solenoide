@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use App\Core\Api\NotificationApi;
 use App\Http\Resources\NotificationCollection;
-use Illuminate\Http\Request;
 
 class NotificationController extends Controller
 {
@@ -23,40 +22,6 @@ class NotificationController extends Controller
     public function index()
     {
         return new NotificationCollection($this->notificationApi->fetchAll());
-    }
-
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request $request
-     * @return \Illuminate\Http\Response
-     */
-    public function store(Request $request)
-    {
-        //
-    }
-
-    /**
-     * Display the specified resource.
-     *
-     * @param  int $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show($id)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request $request
-     * @param  int $id
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, $id)
-    {
-        //
     }
 
     /**
