@@ -12,7 +12,7 @@
 
 # Installation
 In repo's root, open up .env file and update the ENV variables to repo's location, there's an example provided.
-# NOTE: PLEASE DOWNLOAD THE PROJECT AND UNZIP IT, APPARENTLY CLONING IS WIP.
+## NOTE: PLEASE DOWNLOAD THE PROJECT AND UNZIP IT, APPARENTLY CLONING IS WIP.
 
 # Running
 Make sure you're in repo's root and just do `docker-compose up`.
