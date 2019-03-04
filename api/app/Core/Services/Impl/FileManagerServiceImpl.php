@@ -15,7 +15,7 @@ class FileManagerServiceImpl implements FileManagerService
     public function storeFile($request): FileStore
     {
         $fileName = $this->getFileName($request);
-        $path = $request->file->storeAs('transactions', $fileName);
+        $path = $request->file->storeAs('shared-data/transactions', $fileName);
         $fileStore = new FileStore();
         $fileStore->setFilename($fileName);
         $fileStore->setFilepath($path);

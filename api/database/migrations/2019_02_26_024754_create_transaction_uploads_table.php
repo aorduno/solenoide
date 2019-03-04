@@ -15,7 +15,7 @@ class CreateTransactionUploadsTable extends Migration
     {
         Schema::create('transaction_upload', function (Blueprint $table) {
             $table->increments('id');
-            $table->text('filename')->unique();
+            $table->string('filename', 50)->unique();
             $table->enum('status', ['pending', 'processed']);
             $table->unsignedInteger('completed');
             $table->unsignedInteger('failed');

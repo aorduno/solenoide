@@ -1,5 +1,11 @@
 <?php
 
+define('TRAPP_DB_TYPE', 'mysql');
+define('TRAPP_DB_HOST', 'trapp-mysql-container');
+define('TRAPP_DB_USER', 'root');
+define('TRAPP_DB_NAME', 'test_trapp');
+define('TRAPP_DB_PASS', 'root-secret');
+
 return [
 
     /*
@@ -13,7 +19,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'pgsql'),
+    'default' => env('DB_CONNECTION', TRAPP_DB_TYPE),
 
     /*
     |--------------------------------------------------------------------------
@@ -42,11 +48,11 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'host' => env('DB_HOST', '127.0.0.1'),
+            'host' => env('DB_HOST', TRAPP_DB_HOST),
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'forge'),
-            'username' => env('DB_USERNAME', 'forge'),
-            'password' => env('DB_PASSWORD', ''),
+            'database' => env('DB_DATABASE', TRAPP_DB_NAME),
+            'username' => env('DB_USERNAME', TRAPP_DB_USER),
+            'password' => env('DB_PASSWORD', TRAPP_DB_PASS),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',

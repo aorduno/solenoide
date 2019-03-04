@@ -22,7 +22,8 @@ class TransactionController extends Controller
      */
     public function index()
     {
-        return new TransactionCollection($this->transactionService->findAll());
+        phpinfo();
+//        return new TransactionCollection($this->transactionService->findAll());
     }
 
     /**

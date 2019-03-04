@@ -2,94 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da5041de-c86a-4679-bdd9-a5305065add6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/client/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/.ember-cli" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/.template-lintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/.watchmanconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/app/adapters/application.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/app/adapters/file-upload-request.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/app/adapters/transaction-upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/app/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/app/components/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/app/components/file-uploader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/app/components/transaction-list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/app/components/transaction-upload-list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/app/controllers/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/app/helpers/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/app/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/app/models/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/app/models/add-transaction-request.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/app/models/file-upload-request.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/app/models/transaction-upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/app/models/transaction.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/app/models/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/app/resolver.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/app/router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/app/routes/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/app/routes/dashboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/app/routes/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/app/routes/transactions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/app/routes/transactions/add.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/app/routes/transactions/list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/app/serializers/file-upload-request.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/app/styles/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/app/templates/application.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/app/templates/components/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/app/templates/components/file-uploader.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/app/templates/components/transaction-list.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/app/templates/components/transaction-upload-list.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/app/templates/dashboard.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/app/templates/index.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/app/templates/transactions.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/app/templates/transactions/add.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/app/templates/transactions/index.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/app/templates/transactions/list.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/config/environment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/config/optional-features.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/config/targets.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/ember-cli-build.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/testem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/tests/helpers/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/tests/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/tests/integration/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/tests/integration/components/file-uploader-test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/tests/integration/components/transaction-list-test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/tests/integration/components/transaction-upload-list-test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/tests/test-helper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/tests/unit/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/tests/unit/adapters/application-test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/tests/unit/adapters/file-upload-request-test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/tests/unit/adapters/transaction-upload-test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/tests/unit/models/add-transaction-request-test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/tests/unit/models/file-upload-request-test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/tests/unit/models/transaction-test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/tests/unit/models/transaction-upload-test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/tests/unit/models/user-test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/tests/unit/routes/dashboard-test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/tests/unit/routes/index-test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/tests/unit/routes/transactions-test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/tests/unit/routes/transactions/add-test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/tests/unit/routes/transactions/list-test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/tests/unit/serializers/file-upload-request-test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/vendor/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/app/Core/Api/NotificationApi.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/app/Core/Api/NotificationApi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/app/Core/Api/Version1/NotificationApiVersion1.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/app/Core/Api/Version1/NotificationApiVersion1.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/app/Core/Services/Impl/NotificationServiceImpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/app/Core/Services/Impl/NotificationServiceImpl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/app/Core/Services/NotificationService.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/app/Core/Services/NotificationService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/app/Http/Controllers/NotificationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/app/Http/Controllers/NotificationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/app/Core/Api/Version1/TransactionUploadApiVersion1.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/app/Core/Api/Version1/TransactionUploadApiVersion1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/app/Core/Services/Impl/FileManagerServiceImpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/app/Core/Services/Impl/FileManagerServiceImpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/app/Http/Controllers/TransactionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/app/Http/Controllers/TransactionController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/database.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/crons/helloWorld.txt" beforeDir="false" afterPath="$PROJECT_DIR$/api/crons/helloWorld.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/database/migrations/2019_02_26_024754_create_transaction_uploads_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/database/migrations/2019_02_26_024754_create_transaction_uploads_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/adapters/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/app/adapters/application.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/components/file-uploader.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/app/components/file-uploader.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/laravel_cron.log" beforeDir="false" afterPath="$PROJECT_DIR$/laravel_cron.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/processors/tasks/process_transaction_uploads_task.php" beforeDir="false" afterPath="$PROJECT_DIR$/processors/tasks/process_transaction_uploads_task.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processors/transaction_upload_processor.php" beforeDir="false" afterPath="$PROJECT_DIR$/processors/transaction_upload_processor.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -103,34 +33,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/app/index.html">
+      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="15" selection-end-column="116" />
+            <state relative-caret-position="420">
+              <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="client.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/dist/assets/client.css">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="vendor.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/dist/assets/vendor.css">
+      <file leaf-file-name=".db" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.db">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="95" column="3" selection-start-line="95" selection-start-column="3" selection-end-line="95" selection-end-column="3" />
+            <state>
+              <caret column="31" selection-start-column="31" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="client.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/vendor/custom/client.css">
+      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -139,8 +64,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>$fileName</find>
-      <find>$filePath</find>
       <find>$fileUploadResponse</find>
       <find>getArrayLinesFromCsv</find>
       <find>isValidCsvValue</find>
@@ -169,6 +92,8 @@
       <find>queue</find>
       <find>items</find>
       <find>actions:</find>
+      <find>8000</find>
+      <find>/usr</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -192,24 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/api/app/Http/Controllers/TransactionUploadController.php" />
-        <option value="$PROJECT_DIR$/api/app/Core/Services/CsvValidatorService.php" />
-        <option value="$PROJECT_DIR$/api/app/Core/Models/CsvValidationData.php" />
-        <option value="$PROJECT_DIR$/api/app/Core/Services/Impl/FileManagerServiceImpl.php" />
-        <option value="$PROJECT_DIR$/api/app/Core/Services/Impl/TransactionUploadServiceImpl.php" />
-        <option value="$PROJECT_DIR$/api/app/Providers/ApiProvider.php" />
-        <option value="$PROJECT_DIR$/api/app/Providers/AppServiceProvider.php" />
-        <option value="$PROJECT_DIR$/api/app/Core/Api/Version1/TransactionUploadApiVersion1.php" />
-        <option value="$PROJECT_DIR$/api/storage/logs/laravel-2019-02-28.log" />
-        <option value="$PROJECT_DIR$/api/app/Core/Services/Impl/CsvValidatorServiceImpl.php" />
-        <option value="$PROJECT_DIR$/processors/tasks/ProcessTransactionUploadTask.php" />
-        <option value="$PROJECT_DIR$/processors/workers/transaction_upload_worker.php" />
-        <option value="$PROJECT_DIR$/processors/transaction_upload_processor.php" />
-        <option value="$PROJECT_DIR$/api/config/database.php" />
-        <option value="$PROJECT_DIR$/client/tests/test-helper.js" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/client/app/app.js" />
-        <option value="$PROJECT_DIR$/client/dist/assets/vendor.css" />
         <option value="$PROJECT_DIR$/client/dist/assets/client.css" />
         <option value="$PROJECT_DIR$/client/dist/index.html" />
         <option value="$PROJECT_DIR$/client/ember-cli-build.js" />
@@ -237,12 +144,30 @@
         <option value="$PROJECT_DIR$/client/app/templates/components/full-screen-interstitial.hbs" />
         <option value="$PROJECT_DIR$/client/vendor/custom/client.css" />
         <option value="$PROJECT_DIR$/client/app/components/notification-list-item.js" />
-        <option value="$PROJECT_DIR$/api/app/Http/Controllers/NotificationController.php" />
-        <option value="$PROJECT_DIR$/processors/tasks/process_transaction_uploads_task.php" />
         <option value="$PROJECT_DIR$/client/app/templates/components/transaction-upload-list.hbs" />
-        <option value="$PROJECT_DIR$/client/app/components/file-uploader.js" />
-        <option value="$PROJECT_DIR$/client/app/templates/components/file-uploader.hbs" />
         <option value="$PROJECT_DIR$/client/app/index.html" />
+        <option value="$PROJECT_DIR$/api/app/Http/Controllers/NotificationController.php" />
+        <option value="$PROJECT_DIR$/api/app/Http/Controllers/TransactionUploadController.php" />
+        <option value="$PROJECT_DIR$/client/app/templates/components/file-uploader.hbs" />
+        <option value="$PROJECT_DIR$/processors/tasks/process_transaction_uploads_task.php" />
+        <option value="$PROJECT_DIR$/api/database/migrations/2014_10_12_000000_create_users_table.php" />
+        <option value="$PROJECT_DIR$/api/database/migrations/2014_10_12_100000_create_password_resets_table.php" />
+        <option value="$PROJECT_DIR$/api/database/migrations/2019_02_26_024754_create_transaction_uploads_table.php" />
+        <option value="$PROJECT_DIR$/api/config/database.php" />
+        <option value="$PROJECT_DIR$/api/storage/logs/laravel-2019-03-02.log" />
+        <option value="$PROJECT_DIR$/api/app/Http/Controllers/TransactionController.php" />
+        <option value="$PROJECT_DIR$/api/routes/api.php" />
+        <option value="$PROJECT_DIR$/api/Dockerfile" />
+        <option value="$PROJECT_DIR$/api/app/Core/Api/Version1/TransactionUploadApiVersion1.php" />
+        <option value="$PROJECT_DIR$/api/app/Core/Services/Impl/FileManagerServiceImpl.php" />
+        <option value="$PROJECT_DIR$/api/database/migrations/2019_02_27_014712_create_notifications_table.php" />
+        <option value="$PROJECT_DIR$/client/client-entrypoint.sh" />
+        <option value="$PROJECT_DIR$/client/app/adapters/application.js" />
+        <option value="$PROJECT_DIR$/client/app/components/file-uploader.js" />
+        <option value="$PROJECT_DIR$/processors/transaction_upload_processor.php" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/.db" />
       </list>
     </option>
   </component>
@@ -358,6 +283,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -365,105 +291,10 @@
               <item name="transaction-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="transaction-app" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="transaction-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="transaction-app" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="transaction-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="transaction-app" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="transaction-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="transaction-app" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="transaction-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="transaction-app" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="transaction-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="transaction-app" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="transactions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="transaction-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="transaction-app" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="transaction-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="transaction-app" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="transaction-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="transaction-app" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="transaction-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="transaction-app" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="transactions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="transaction-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="transaction-app" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="transaction-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="transaction-app" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="transaction-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="transaction-app" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="transaction-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="transaction-app" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="custom" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="transaction-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="transaction-app" type="462c0819:PsiDirectoryNode" />
-              <item name="processors" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -571,12 +402,17 @@
       <workItem from="1551388156611" duration="10497000" />
       <workItem from="1551408915441" duration="9799000" />
       <workItem from="1551457004830" duration="697000" />
-      <workItem from="1551460384191" duration="5155000" />
+      <workItem from="1551460384191" duration="5473000" />
+      <workItem from="1551496006952" duration="3936000" />
+      <workItem from="1551507269949" duration="548000" />
+      <workItem from="1551515354466" duration="109000" />
+      <workItem from="1551551260408" duration="9049000" />
+      <workItem from="1551648370203" duration="5288000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116158000" />
+    <option name="totallyTimeSpent" value="135406000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -596,27 +432,27 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5026624" side_tool="true" weight="0.26865673" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5026624" side_tool="true" weight="0.26865673" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.63471776" visible="true" weight="0.3651741" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.63471776" visible="true" weight="0.32537314" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2087327" />
-      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1086262" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49733758" weight="0.359204" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="5" visible="true" weight="0.028221512" />
+      <window_info anchor="right" id="Ant Build" order="5" visible="true" weight="0.01544196" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="7" />
-      <window_info anchor="bottom" id="Thumbnails" order="10" weight="0.32969698" />
+      <window_info anchor="bottom" id="Messages" order="8" />
+      <window_info anchor="bottom" id="Thumbnails" order="11" weight="0.32969698" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49733758" weight="0.359204" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -651,186 +487,17 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_PLUGINS_DIR$/php/lib/php.jar!/stubs/PDO/PDO.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="800" column="20" selection-start-line="800" selection-start-column="20" selection-end-line="800" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/processors/workers/transaction_upload_manager.php" />
-    <entry file="jar://$APPLICATION_PLUGINS_DIR$/php/lib/php.jar!/stubs/pthreads/pthreads.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="109" column="82" lean-forward="true" selection-start-line="109" selection-start-column="82" selection-end-line="109" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/processors/workers/transaction_upload_worker.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/serializers/file-upload-request.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="66" column="27" lean-forward="true" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/.gitignore">
+    <entry file="file://$PROJECT_DIR$/client/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/tests/test-helper.js">
+    <entry file="file://$PROJECT_DIR$/client/dist/assets/vendor.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/dist/assets/bootstrap/bootstrap.scss" />
-    <entry file="file://$PROJECT_DIR$/client/ember-cli-build.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/dist/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/routes/transactions/list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="48" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/models/transaction-upload.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/models/notification.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/templates/transactions/list.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="62" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/templates/components/notification-list.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/components/notification-list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/app/Core/Services/Impl/TransactionServiceImpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/services/poll-notification-service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="11" column="45" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/templates/transactions.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/templates/index.hbs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/templates/dashboard.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/templates/application.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="1" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/templates/components/full-screen-interstitial.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="14" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="28" />
+        <state relative-caret-position="81">
+          <caret line="95" column="3" selection-start-line="95" selection-start-column="3" selection-end-line="95" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -841,140 +508,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/components/notification-list-item.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/components/notification-list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/models/notification.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/app/services/full-screen-interstitial-service.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/components/transaction-list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/components/notification-list-item.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/components/transaction-upload-list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/templates/transactions/add.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/app/Core/Services/Impl/NotificationServiceImpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-          <folding>
-            <element signature="e#43#76#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/app/Core/Services/NotificationService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/app/Core/Api/Version1/NotificationApiVersion1.php">
+    <entry file="file://$PROJECT_DIR$/client/app/services/poll-notification-service.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="12" column="45" lean-forward="true" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/app/Core/Api/NotificationApi.php">
+    <entry file="file://$PROJECT_DIR$/client/vendor/custom/client.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        <state relative-caret-position="210">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/app/Http/Controllers/NotificationController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="70" column="92" selection-start-line="70" selection-start-column="92" selection-end-line="70" selection-end-column="92" />
-          <folding>
-            <element signature="e#40#73#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/processors/tasks/process_transaction_uploads_task.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="132" column="43" selection-start-line="132" selection-start-column="43" selection-end-line="132" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/processors/transaction_upload_processor.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/components/file-uploader.js">
+    <entry file="file://$PROJECT_DIR$/client/app/templates/components/notification-list.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/templates/components/transaction-upload-list.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/templates/components/transaction-list.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/vendor/bootstrap/bootstrap.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/templates/components/file-uploader.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
+          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -985,27 +564,281 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/dist/assets/client.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/dist/assets/vendor.css">
+    <entry file="file://$PROJECT_DIR$/client/app/templates/components/full-screen-interstitial.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="95" column="3" selection-start-line="95" selection-start-column="3" selection-end-line="95" selection-end-column="3" />
+        <state relative-caret-position="15">
+          <caret line="1" column="14" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/vendor/custom/client.css">
+    <entry file="file://$PROJECT_DIR$/api/app/Http/Controllers/NotificationController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+        <state relative-caret-position="180">
+          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/index.html">
+    <entry file="file://$PROJECT_DIR$/client/app/templates/transactions/add.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/templates/components/file-uploader.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/database/migrations/2014_10_12_100000_create_password_resets_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="15" selection-end-column="116" />
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/database/migrations/2014_10_12_000000_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app/Console/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/server.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/database/migrations/2019_02_26_024754_create_transaction_uploads_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/database/migrations/2019_02_23_210745_create_transaction_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app/Core/Services/FileManagerService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="618" column="20" selection-start-line="618" selection-start-column="20" selection-end-line="618" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processors/tasks/process_transaction_uploads_task.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="38" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/adapters/transaction-upload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/adapters/file-upload-request.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app/Core/Api/TransactionUploadApi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/storage/logs/laravel-2019-03-02.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="392" column="23" selection-start-line="392" selection-start-column="23" selection-end-line="392" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app/Http/Controllers/TransactionUploadController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app/Core/Services/CsvValidatorService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app/Core/Services/Impl/CsvValidatorServiceImpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app/Http/Controllers/TransactionController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/routes/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/storage/app/shared-data/transactions/transactions_userid_2_2019_03_02_21_16_40.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app/Core/Services/Impl/FileManagerServiceImpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app/Core/Services/Impl/TransactionUploadServiceImpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="28" column="55" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app/Core/Services/TransactionUploadService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app/Core/Api/Version1/TransactionUploadApiVersion1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="50" column="52" selection-start-line="50" selection-start-column="52" selection-end-line="50" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/database/migrations/2019_02_27_014712_create_notifications_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/config-entrypoint.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="6" lean-forward="true" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/composer.lock">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/components/file-uploader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="31" column="40" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/adapters/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processors/transaction_upload_processor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.db">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
         </state>
       </provider>
     </entry>

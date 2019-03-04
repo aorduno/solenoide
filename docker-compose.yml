@@ -1,0 +1,40 @@
+version: '3'
+services:
+  trapp-mysql-container:
+    image: aorduno/trapp-mysql:latest
+    container_name: pedant_mysql
+    env_file:
+      - .db
+  trapp-pthreads-container:
+    image: aorduno/trapp-pthreads-supervisor:latest
+    container_name: laughing_pthread
+    links:
+      - trapp-mysql-container
+    volumes:
+      - ${TRAPP_PROCESSORS_DIR}:/trapp-pthreads
+      - shared-data-trapp:/trapp-pthreads/shared-data
+    tty: true
+  trapp-server-container:
+    image: aorduno/trapp-server:latest
+    container_name: brave_app_server
+    links:
+      - trapp-mysql-container
+    volumes:
+      - ${TRAPP_SERVER_DIR}:/trapp-app-server
+      - shared-data-trapp:/trapp-app-server/storage/app/shared-data
+    ports:
+      - 6969:6969
+    entrypoint: "/server-entrypoint.sh"
+  trapp-client-container:
+    image: aorduno/trapp-client:latest
+    container_name: amazing_app_client
+    links:
+      - trapp-server-container
+    volumes:
+      - ${TRAPP_CLIENT_DIR}:/trapp-client
+    ports:
+      - 4200:4200
+      - 35730:35730
+    tty: true
+volumes:
+  shared-data-trapp:

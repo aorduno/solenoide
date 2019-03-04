@@ -7,7 +7,6 @@ use App\Core\Api\TransactionUploadApi;
 use App\Core\Services\CsvValidatorService;
 use App\Core\Services\TransactionUploadService;
 use App\Exceptions\ApiException;
-use Illuminate\Support\Facades\Log;
 
 class TransactionUploadApiVersion1 implements TransactionUploadApi
 {
@@ -33,7 +32,8 @@ class TransactionUploadApiVersion1 implements TransactionUploadApi
      */
     public function store($request)
     {
-        if (!$request->hasFile('file') || !in_array($request->file->getClientOriginalExtension(), self::SUPPORTED_EXTENSIONS)) {
+        $clientOriginalExtension = $request->file->getClientOriginalExtension();
+        if (empty($request->file) || !in_array($clientOriginalExtension, self::SUPPORTED_EXTENSIONS)) {
             throw new ApiException('Invalid file received', 400);
         }
 

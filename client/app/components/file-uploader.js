@@ -29,7 +29,7 @@ export default Component.extend({
       self.set('successMessage', null);
       self.set('errorMessage', null);
       fullScreenInterstitialService.show();
-      file.upload('http://localhost:8000/api/transactionUploads', {
+      file.upload('http://localhost:6969/api/transactionUploads', {
         data: {
           userId: 2
         },

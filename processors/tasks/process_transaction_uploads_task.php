@@ -34,7 +34,8 @@ class ProcessTransactionUploadTasks extends Threaded
 
         $failed = 0;
         $completed = 0;
-        $myPdo = new PDO('pgsql:host=localhost;dbname=test-trapp', 'aorduno', '');
+        $connectionDsn = TRAPP_DB_TYPE . ':host=' . TRAPP_DB_HOST . ';dbname=' . TRAPP_DB_NAME;
+        $myPdo = new PDO($connectionDsn, TRAPP_DB_USER, TRAPP_DB_PASS);
         $myPdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         foreach ($lineBatches as $batch) {
             $processData = $this->processCsvBatch($batch, $myPdo);
